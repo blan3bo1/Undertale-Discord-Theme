@@ -3,26 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
+    <title>Undertale Discord Theme</title>
     <style>
-        body {
+        * {
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
+            box-sizing: border-box;
         }
-        .message {
-            font-size: 3rem;
-            color: #333;
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #000;
+            color: #fff;
+            line-height: 1.4;
+            background-image: 
+                radial-gradient(circle at 20% 30%, #2d1b69 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, #1b5e69 0%, transparent 50%);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
             text-align: center;
+        }
+
+        /* Undertale-style boxes */
+        .undertale-box {
+            background: #000;
+            border: 3px solid #fff;
+            padding: 2rem;
+            margin: 2rem 0;
+            position: relative;
+        }
+
+        .undertale-box::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 2px solid #ff6b6b;
+            z-index: -1;
+        }
+
+        /* Text styles */
+        h1 {
+            color: #ff6b6b;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 3px 3px 0 #000;
+        }
+
+        h2 {
+            color: #ffd93d;
+            font-size: 1.8rem;
+            margin: 1.5rem 0;
+        }
+
+        p {
+            margin: 1rem 0;
+            font-size: 1.1rem;
+        }
+
+        /* Heart cursor */
+        .heart {
+            color: #ff6b6b;
+            font-size: 1.5rem;
+            animation: float 2s ease-in-out infinite;
+        }
+
+        /* Buttons */
+        .undertale-btn {
+            background: #000;
+            color: #fff;
+            border: 2px solid #fff;
+            padding: 12px 24px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1rem;
+            margin: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .undertale-btn:hover {
+            background: #fff;
+            color: #000;
+            transform: scale(1.05);
+        }
+
+        .btn-download {
+            border-color: #ffd93d;
+            color: #ffd93d;
+        }
+
+        .btn-download:hover {
+            background: #ffd93d;
+            color: #000;
+        }
+
+        /* Features list */
+        .features {
+            text-align: left;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .features li {
+            margin: 1rem 0;
+            padding-left: 1rem;
+            border-left: 2px solid #ff6b6b;
+        }
+
+        /* Animation */
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        .pixel-art {
+            font-size: 4rem;
+            margin: 1rem 0;
+        }
+
+        /* Simple footer */
+        footer {
+            margin-top: 3rem;
+            padding: 1rem;
+            border-top: 2px solid #333;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .undertale-box {
+                padding: 1rem;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="message">Not out yet sorry</div>
+    <div class="container">
+        <!-- Header -->
+        <div class="pixel-art">⚡</div>
+        <h1>UNDERTALE DISCORD THEME</h1>
+        
+        <!-- Main Box -->
+        <div class="undertale-box">
+            <p>A beautiful Undertale-inspired theme for Discord</p>
+            <p>Bring the magic of the Underground to your chats</p>
+            <p>Image Sourced From Amazing Creator</p>
+            <div class="heart">♥</div>
+        </div>
+
+        <!-- Download Section -->
+        <h2>DOWNLOAD</h2>
+        <div class="undertale-box">
+            <p>Get the theme and start your adventure</p>
+            <a href="https://github.com/blan3bo1/Undertale-Discord-Theme" class="undertale-btn btn-download">
+                Download from GitHub
+            </a>
+        </div>
+
+        <!-- Features -->
+        <h2>FEATURES</h2>
+        <div class="undertale-box">
+            <ul class="features">
+                <li>Authentic Undertale styling</li>
+                <li>Pixel-perfect design</li>
+                <li>Easy to install</li>
+                <li>Lightweight and fast</li>
+                <li>Regular updates</li>
+            </ul>
+        </div>
+
+        <!-- Installation -->
+        <h2>INSTALLATION</h2>
+        <div class="undertale-box">
+            <p>1. Download BetterDiscord</p>
+            <p>2. Get the theme file from GitHub</p>
+            <p>3. Place in themes folder</p>
+            <p>4. Enable in settings</p>
+            <p>5. Enjoy! * You feel determined</p>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made with ♥ for the Undertale community</p>
+            <p>Not affiliated with Undertale or Discord</p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple typewriter effect for the main text
+        document.addEventListener('DOMContentLoaded', function() {
+            const texts = document.querySelectorAll('.undertale-box p');
+            texts.forEach(text => {
+                const original = text.textContent;
+                text.textContent = '';
+                let i = 0;
+                const typeWriter = () => {
+                    if (i < original.length) {
+                        text.textContent += original.charAt(i);
+                        i++;
+                        setTimeout(typeWriter, 50);
+                    }
+                };
+                setTimeout(typeWriter, 1000);
+            });
+        });
+    </script>
 </body>
 </html>
