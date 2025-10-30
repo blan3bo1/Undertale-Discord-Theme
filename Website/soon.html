@@ -9,6 +9,7 @@
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -19,14 +20,27 @@
             font-size: 3rem;
             color: #333;
             text-align: center;
+            margin-bottom: 2rem;
+        }
+        .back-link {
+            font-size: 1.2rem;
+            color: #666;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover {
+            background-color: #333;
+            color: white;
         }
     </style>
 </head>
 <body>
     <div class="message">Not out yet</div>
-      <p>Go Back</p>
-       <a href="https://github.com/blan3bo1/Undertale-Discord-Theme" class="message">
-         Back
-       </a>
+    <a href="https://github.com/blan3bo1/Undertale-Discord-Theme" class="back-link">
+        Back to GitHub
+    </a>
 </body>
 </html>
