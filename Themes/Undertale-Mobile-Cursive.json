@@ -1,0 +1,75 @@
+{
+  "name": "Undertale",
+  "author": "Blankboii",
+  "version": "2.0.0",
+  "description": "I love Undertale so I made a theme based on it! Enjoy :)",
+  "source": "https://github.com/blan3bo1/Undertale-Discord-Theme",
+  "invite": "uUFYfTHP8E",
+  "authorId": 1353737272989581436,
+  "background": {
+    "image": "https://c4.wallpaperflare.com/wallpaper/854/270/453/video-game-undertale-asriel-undertale-frisk-undertale-wallpaper-preview.jpg",
+    "blur": "2px",
+    "size": "cover",
+    "position": "center"
+  },
+  "popout": {
+    "image": "var(--background-image)",
+    "blur": "5px",
+    "size": "cover",
+    "position": "center"
+  },
+  "overlay": {
+    "image": "var(--background-image)",
+    "blur": "5px",
+    "size": "cover",
+    "position": "center"
+  },
+  "homeButton": {
+    "image": "https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg",
+    "size": "cover",
+    "position": "center"
+  },
+  "brightness": {
+    "serverlist": 0.8,
+    "left": 0.8,
+    "middle": 0.6,
+    "right": 0,
+    "overlay": 0.75
+  },
+  "colors": {
+    "gradientPrimary": "103,58,183",
+    "gradientSecondary": "63,81,181",
+    "link": "#00b0f4",
+    "scrollbar": "rgba(255,255,255,0.05)",
+    "tint": "255,51,159"
+  },
+  "settings": {
+    "gradientDirection": "320deg",
+    "tintBrightness": 0,
+    "font": "Parisienne",
+    "windowPadding": "20px",
+    "windowRoundness": "10px",
+    "updateNotice": "none"
+  },
+  "radialStatus": {
+    "smallSpacing": "2px",
+    "mediumSpacing": "2px",
+    "largeSpacing": "2px",
+    "smallWidth": "2px",
+    "mediumWidth": "2px",
+    "largeWidth": "2px",
+    "avatarShape": "50%",
+    "onlineColor": "#43b581",
+    "idleColor": "#faa61a",
+    "dndColor": "#f04747",
+    "offlineColor": "#636b75",
+    "streamingColor": "#643da7",
+    "phoneVisible": "block"
+  },
+  "imports": [
+    "https://fonts.googleapis.com/css2?family=Parisienne:wght@100;300;400;500;700&display=swap",
+    "https://discordstyles.github.io/FrostedGlass/FrostedGlass.css",
+    "https://discordstyles.github.io/RadialStatus/RadialStatus.css",
+    "https://discordstyles.github.io/Addons/windows-titlebar.css"
+  ]
+}
