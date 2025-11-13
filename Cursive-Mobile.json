@@ -1,25 +1,25 @@
 {
-"spec": 1,
-"name": "Parisienne",
-"previewText": "Elegant Script Font",
-"main": {
-"ABCGintoNord-ExtraBold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"ggsans-Bold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"ggsans-BoldItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"ggsans-ExtraBold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"ggsans-ExtraBoldItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"ggsans-Medium": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"ggsans-MediumItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"ggsans-Normal": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"ggsans-NormalItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"ggsans-Semibold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"ggsans-SemiboldItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"NotoSans-Bold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"NotoSans-ExtraBold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"NotoSans-Medium": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"NotoSans-Normal": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"NotoSans-NormalItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"NotoSans-Semibold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
-"SourceCodePro-Semibold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf"
-}
+  "spec": 1,
+  "name": "Parisienne",
+  "previewText": "Elegant Script Font",
+  "main": {
+    "ABCGintoNord-ExtraBold": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "ggsans-Bold": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "ggsans-BoldItalic": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "ggsans-ExtraBold": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "ggsans-ExtraBoldItalic": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "ggsans-Medium": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "ggsans-MediumItalic": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "ggsans-Normal": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "ggsans-NormalItalic": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "ggsans-Semibold": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "ggsans-SemiboldItalic": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "NotoSans-Bold": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "NotoSans-ExtraBold": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "NotoSans-Medium": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "NotoSans-Normal": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "NotoSans-NormalItalic": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "NotoSans-Semibold": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2",
+    "SourceCodePro-Semibold": "https://cdn.jsdelivr.net/npm/@fontsource/parisienne@4.5.4/files/parisienne-latin-400-normal.woff2"
+  }
 }
