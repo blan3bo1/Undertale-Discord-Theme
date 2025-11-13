@@ -1,0 +1,25 @@
+{
+"spec": 1,
+"name": "Parisienne",
+"previewText": "Elegant Script Font",
+"main": {
+"ABCGintoNord-ExtraBold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"ggsans-Bold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"ggsans-BoldItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"ggsans-ExtraBold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"ggsans-ExtraBoldItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"ggsans-Medium": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"ggsans-MediumItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"ggsans-Normal": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"ggsans-NormalItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"ggsans-Semibold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"ggsans-SemiboldItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"NotoSans-Bold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"NotoSans-ExtraBold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"NotoSans-Medium": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"NotoSans-Normal": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"NotoSans-NormalItalic": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"NotoSans-Semibold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf",
+"SourceCodePro-Semibold": "https://fonts.gstatic.com/s/parisienne/v13/E21n_dDxiuBIANkA-gMBCqO8ogpB8A.ttf"
+}
+}
